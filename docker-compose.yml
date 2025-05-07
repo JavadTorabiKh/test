@@ -1,5 +1,3 @@
-version: '2.3'
-
 services:
   flask-app:
     build:
@@ -13,4 +11,3 @@ services:
     environment:
       - FLASK_ENV=development
     restart: unless-stopped
-    
